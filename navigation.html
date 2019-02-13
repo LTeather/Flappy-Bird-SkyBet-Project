@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="navigation.css">
+    <script>
+      function changefile(site) {
+        localStorage.setItem('site', site);
+      }
+    </script>
+  </head>
+  <body>
+    <div class="nav">
+      <form action="/SHU-Sky-Bet" method="get">
+        <input type="image"  onclick="changefile('bet')" src="assets/images/logo_bet.png" alt="Submit Form" />
+      </form>
+      <form action="/SHU-Sky-Bet" method="get">
+        <input type="image"  onclick="changefile('bingo')" src="assets/images/logo_bingo.png" alt="Submit Form" />
+      </form>
+      <form action="/SHU-Sky-Bet" method="get">
+        <input type="image"  onclick="changefile('casino')" src="assets/images/logo_casino.png" alt="Submit Form" />
+      </form>
+      <form action="/SHU-Sky-Bet" method="get">
+        <input type="image"  onclick="changefile('poker')" src="assets/images/logo_poker.png" alt="Submit Form" />
+      </form>
+      <form action="/SHU-Sky-Bet" method="get">
+        <input type="image"  onclick="changefile('vegas')" src="assets/images/logo_vegas.png" alt="Submit Form" />
+      </form>
+    </div>
+  </body>
+</html>

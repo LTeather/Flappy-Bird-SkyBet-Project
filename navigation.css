@@ -1,0 +1,19 @@
+body {
+  margin: 0px;
+}
+.nav {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+  flex-wrap: wrap;
+  background: #282c34;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 20px;
+  height: -webkit-fill-available;
+}
+
+.nav input {
+  width: 200px;
+  padding: 0 10px 0 10px;
+}

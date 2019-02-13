@@ -1,0 +1,201 @@
+/*styles html body*/
+body{
+    margin: 0px;
+}
+
+/*styles font of P*/
+p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Style for tweet box */
+.container {
+    background-color: white;
+    border-bottom: 2px solid #233366;
+    padding: 5px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    padding: 16px;
+}
+/* Style for score board on Modal*/ 
+.scoreBoard {
+    background-color: #233366;  
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-bottom: 2px solid #D82231;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+/*Style for score within scoreBoard*/
+.score {
+    color: white;
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+/*Style for High score within scoreBoard*/
+.highScore {
+    color: white;
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+/*Style to position Twitter profile picture*/
+.picture {
+    margin-right: 2px;
+    float: left;
+}
+/*Rounds off the twitter profile image */
+.picture img {
+    border-radius: 50%; 
+}
+
+.clearfix{
+    clear:both
+}
+/* Styles font color for time*/
+.time {
+    color: grey;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/*styles the header and header font*/
+.header {
+    border-bottom: 2px solid #233366;
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    padding: 5px;
+}
+
+/*Positions the modal button*/
+#myBtn {
+    display: none; /*hides the modal button*/
+    position: fixed; 
+}
+/*Styles and positions menu button*/
+.menubtn {
+    background-color: #D82231;
+    border-bottom: 2px solid #D82231;
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #233366;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 65%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*Styles returnBtn*/
+#returnBtn{
+    display: none;
+    background-color: #00FF00;
+    border-bottom: 2px solid white;
+    
+}
+
+/* Styles the container for GamblingAware imagine*/
+.stop {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/*Styles GamblingAware imagine*/
+.stop img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+input[type=submit] {
+    background-color: rgba(255, 255, 255, 0.75); /* Black w/ opacity */
+    border: none;
+}
+
+input[type=text] {
+    background-color: rgba(255, 255, 255, 0.75); /* Black w/ opacity */
+    border: none;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: rgba(255,255,255,0.75);
+  margin: 5% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  height: 80%;
+  overflow: auto;
+}
+
+/*Styles scrollbar button*/
+::-webkit-scrollbar-button{ 
+    display: none; 
+    height: 13px; 
+    border-radius: 0px; 
+    background-color: #AAA; 
+} 
+
+/*styles hover colour for button on scrollbar*/
+::-webkit-scrollbar-button:hover{ 
+    background-color: #AAA; 
+} 
+
+/*Styles the draggable scrolling handle*/
+::-webkit-scrollbar-thumb{ 
+    background-color: #233366; 
+    border-radius: 10px; 
+} 
+
+/*Styles the hover over scrolling handle*/
+::-webkit-scrollbar-thumb:hover{ 
+    background-color: #5173e2; 
+    border-radius: 10px; 
+} 
+
+/*Styles the scrollbar*/
+::-webkit-scrollbar-track{ 
+    background-color: #efefef; 
+    border-radius: 25px; 
+} 
+
+/*Styles the hover over scrollbar*/
+::-webkit-scrollbar-track:hover{ 
+    background-color: #CCC; 
+} 
+
+/*Styles width of scrollbar*/
+::-webkit-scrollbar{ 
+    width: 13px; 
+}
+
